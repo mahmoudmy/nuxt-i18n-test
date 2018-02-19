@@ -1,0 +1,45 @@
+a,
+a:hover {
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f1f3f5;
+}
+
+.uk-lightbox {
+  background-color: rgba(0, 0, 0, 0.9)
+}
+
+.uk-lightbox-button {
+  background: none;
+}
+
+.uk-lightbox .uk-slidenav svg {
+  transform: rotate(180deg);
+}
+
+.nuxt-default {
+  padding-top: 100px;
+}
+
+.uk-navbar-item,
+.uk-navbar-nav>li>a,
+.uk-navbar-toggle {
+  height: 50px;
+}
+
+.uk-input,
+.uk-select,
+.uk-textarea {
+  border-color: #ccc;
+}
+
+.uk-nav-default a.nuxt-link-active {
+  color: #333;
+}

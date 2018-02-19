@@ -1,0 +1,24 @@
+{
+  "name": "coridor-frontend-nuxt",
+  "version": "1.0.0",
+  "description": "My excellent Nuxt.js project",
+  "author": "Mahmoud Mosalman",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "nuxt": "^1.0.0",
+    "nuxt-i18n": "^2.3.0-0",
+    "uikit": "^3.0.0-beta.40",
+    "vue-awesome-swiper": "^3.1.2",
+    "vue2-google-maps": "^0.8.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
