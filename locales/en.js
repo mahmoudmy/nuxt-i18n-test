@@ -1,5 +1,5 @@
 module.exports = {
-  ESTATE: "property", SALE: "فروش",
+  ESTATE: "property",
   SALE: "sale",
   RENT: "rent",
   VILLA: "villa",
