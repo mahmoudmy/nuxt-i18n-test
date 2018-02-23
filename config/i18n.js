@@ -2,11 +2,13 @@ module.exports = {
   locales: [{
     code: 'fa',
     iso: 'fa-IR',
-    name: 'فارسی'
+    name: 'فارسی',
+    langFile: 'fa.js'
   }, {
     code: 'en',
     iso: 'en-US',
-    name: 'English'
+    name: 'English',
+    langFile: 'en.js'
   }],
   defaultLocale: 'fa',
   vueI18n: {
@@ -14,9 +16,5 @@ module.exports = {
     silentTranslationWarn: true
   },
   loadLanguagesAsync: true,
-  langDir: 'locales/',
-  langFiles: {
-    fa: 'fa.js',
-    en: 'en.js'
-  }
+  langDir: 'locales/'
 }
