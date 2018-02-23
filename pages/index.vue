@@ -14,11 +14,6 @@ export default {
   components: {
     EstateCard
   },
-  layout(context){
-    const domain = context.req.headers.host.split('.')
-    const subdomain = (domain.length > 2) && domain[0]
-    return subdomain ? 'subdomain': 'default'
-  },
   asyncData({ app }) {
     return app.$axios.$get("https://coridor.ir/api/v1/estates/list?limit=4&hasImage=true&dealType=SALE")
       .then(res => {
