@@ -1,7 +1,5 @@
 const I18n = require('./config/i18n')
 
-const pkg = require('./package')
-
 module.exports = {
   mode: 'universal',
 
@@ -72,6 +70,7 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
+    '@nuxtjs/auth',
     // i18n
     ['nuxt-i18n', I18n]
   ],
